@@ -154,11 +154,11 @@ namespace fans
     
         public FA3()
         {
-           a.Transitions['0'] = c;
-           a.Transitions['1'] = b;
+           a.Transitions['0'] = b;
+           a.Transitions['1'] = c;
            b.Transitions['0'] = a;
            b.Transitions['1'] = c;
-           c.Transitions['0'] = b;
+           c.Transitions['0'] = a;
            c.Transitions['1'] = d;
            d.Transitions['0'] = d;
            d.Transitions['1'] = d;
