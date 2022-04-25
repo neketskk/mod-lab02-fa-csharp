@@ -98,7 +98,6 @@ namespace fans
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State e = new State()
         State InitialState = a;
         
         public FA2()
